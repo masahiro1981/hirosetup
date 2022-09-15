@@ -1,0 +1,7 @@
+network:
+  version: 2
+  renderer: networkd
+  ethernets:
+    enx3460f919d261:
+      dhcp4: true
+

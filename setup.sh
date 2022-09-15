@@ -10,3 +10,17 @@ echo "Running install hook"
 #echo "0"   > /sys/class/gpio/gpio458/value
 
 $SNAP/test_PM6150.sh
+
+
+#setup eth usb cable 
+if [ ! -f /etc/netplan/config.yaml ]; then
+  ip l set enx3460f919d261 up
+  cp $SNAP/config.yaml /etc/netplan/config.yaml
+  netplan apply
+fi
+
+if [ -f /etc/netplan/config.yaml ]; then
+  echo "Skip network setup...." 
+fi
+
+

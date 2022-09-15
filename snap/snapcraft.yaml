@@ -29,4 +29,3 @@ plugs:
   qcs-gpio-458:
     interface: gpio
 
-
