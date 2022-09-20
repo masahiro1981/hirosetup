@@ -1,3 +1,5 @@
+#! /bin/bash 
+
   if [ ! -d /dev/gpio ]; then
   echo "Creating /dev/gpio"
   mkdir /dev/gpio
