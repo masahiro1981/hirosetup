@@ -1,0 +1,7 @@
+#! bin/bash
+
+
+#snap connect hirosetup:qcs-gpio-502 mic-qcs410:qcs-gpio-502
+mkdir /dev/gpio
+ln -s /sys/class/gpio/gpio502/value /dev/gpio/QCS_QM_Wake
+

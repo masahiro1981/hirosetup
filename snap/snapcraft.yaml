@@ -28,4 +28,49 @@ parts:
 plugs:
   qcs-gpio-458:
     interface: gpio
-
+  qcs-gpio-502:
+    interface: gpio
+  qcs-gpio-493:
+    interface: gpio
+  qcs-gpio-492:
+    interface: gpio
+  qcs-gpio-488:
+    interface: gpio
+  qcs-gpio-482:
+    interface: gpio
+  qcs-gpio-481:
+    interface: gpio
+  qcs-gpio-480:
+    interface: gpio
+  qcs-gpio-479:
+    interface: gpio
+  qcs-gpio-477:
+    interface: gpio
+  qcs-gpio-473:
+    interface: gpio
+  qcs-gpio-470:
+    interface: gpio
+  qcs-gpio-468:
+    interface: gpio
+  qcs-gpio-465:
+    interface: gpio
+  qcs-gpio-464:
+    interface: gpio
+  qcs-gpio-463:
+    interface: gpio
+  qcs-gpio-462:
+    interface: gpio
+  qcs-gpio-461:
+    interface: gpio
+  qcs-gpio-456:
+    interface: gpio
+  qcs-gpio-452:
+    interface: gpio
+  qcs-gpio-450:
+    interface: gpio
+  qcs-gpio-438:
+    interface: gpio
+  qcs-gpio-413:
+    interface: gpio
+  qcs-gpio-412:
+    interface: gpio

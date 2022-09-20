@@ -1,0 +1,8 @@
+  if [ ! -d /dev/gpio ]; then
+  echo "Creating /dev/gpio"
+  mkdir /dev/gpio
+  fi
+  
+  if [ ! -f /dev/gpio/ ]; then
+    ln -s /sys/class/gpio/gpio473/value "/dev/gpio/QCS_WAKE up_From uWAVE"
+  fi

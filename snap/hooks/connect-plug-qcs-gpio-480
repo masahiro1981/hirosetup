@@ -1,0 +1,8 @@
+  if [ ! -d /dev/gpio ]; then
+  echo "Creating /dev/gpio"
+  mkdir /dev/gpio
+  fi
+  
+  if [ ! -f /dev/gpio/ ]; then
+    ln -s /sys/class/gpio/gpio480/value /dev/gpio/QCS_NAD_VBUS_ON
+  fi

@@ -1,0 +1,10 @@
+  if [ ! -d /dev/gpio ]; then
+  echo "Creating /dev/gpio"
+  mkdir /dev/gpio
+  fi
+  
+  if [ ! -f /dev/gpio/ ]; then
+    echo "in" > /sys/class/gpio/gpio477/direction
+    echo "both" > /sys/class/gpio/gpio477/edge
+    ln -s /sys/class/gpio/gpio477/value /dev/gpio/QCS_MQ_Notice
+  fi
