@@ -6,5 +6,5 @@
   fi
   
   if [ ! -f /dev/gpio/ ]; then
-    ln -s /sys/class/gpio/gpio462/value /dev/gpio/
+    ln -s /sys/class/gpio/gpio462/value /dev/gpio/HW_VER_1
   fi
